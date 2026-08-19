@@ -1,0 +1,149 @@
+body {
+  font-family: TimesNewRoman;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.section {
+  scroll-margin-top: 100px;
+}
+
+.sticky-nav-wrapper {
+  position: sticky;
+  top: 0;
+}
+
+.custom-nav-bg {
+  background-color: red;
+}
+
+.brand-title {
+  font-family: TimesNewRoman;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+  color: blue;
+}
+
+.navbar-nav .nav-link:hover{
+  color: white;
+}
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+}
+
+.main-heading h2 {
+  font-family: TimesNewRoman;
+  border-style: solid;
+  border-color: red;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px;
+  background-color: lightgray;
+  color: black;
+  margin-top: 20px;
+}
+
+.profile-img {
+  height: 360px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 15px;
+  float: left;
+  border-radius: 10px;
+}
+
+.intro-details {
+  margin-left: 20px;
+}
+
+.main-title {
+  font-size: 70px;
+  font-family: TimesNewRoman;
+  margin-top: 15px;
+}
+
+.subtitle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-badge {
+  border-style: solid;
+  border-color: blue;
+  border-radius: 15px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: lightgray;
+  font-size: 20px;
+  color: black;
+}
+
+.content p {
+  font-size: 20px;
+  margin: 20px;
+  font-family: TimesNewRoman;
+}
+
+.side-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.indented-content {
+  margin-left: 50px;
+}
+
+.section-subheading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.education-table-wrapper {
+  margin-top: 20px;
+  margin-right: 45px;
+  margin-bottom: 25px;
+  margin-left: 45px;
+}
+
+.gallery-img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.contact-section {
+  margin-bottom: 30px;
+}
+
+.footer-info {
+  background-color: lightgray;
+}
+
+.student-info-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.student-info-table td {
+  padding: 10px;
+  font-size: 18px;
+}
